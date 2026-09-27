@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="t d">
+<title id="t">Glowbook layered assembly preview</title><desc id="d">Editorial preview of the reconstructed glowing book layers, including a translucent page, LED layer, cavity, and book body.</desc>
+<defs><radialGradient id="halo"><stop stop-color="#f5bc6a" stop-opacity=".5"/><stop offset="1" stop-color="#f5bc6a" stop-opacity="0"/></radialGradient>
+<style>.tag{font:600 20px 'IBM Plex Mono',monospace;letter-spacing:2px;fill:#68766b}</style></defs>
+<rect width="1440" height="760" fill="#f3f3ee"/><circle cx="889" cy="311" r="385" fill="url(#halo)"/>
+<text x="62" y="83" class="tag">GLOWBOOK / LIGHT + POWER</text>
+<g stroke-linejoin="round">
+<polygon points="398,565 930,445 1320,608 780,736" fill="#b9aa92" stroke="#786e5e" stroke-width="6"/>
+<polygon points="398,565 780,736 780,756 398,585" fill="#a9977c" stroke="#786e5e" stroke-width="4"/>
+<polygon points="398,438 925,321 1320,486 785,607" fill="#eee5d1" stroke="#9fa89c" stroke-width="6"/>
+<polygon points="445,437 920,334 1270,487 793,591" fill="#37433e" stroke="#a8b2a4" stroke-width="4"/>
+<polygon points="541,441 768,391 926,458 700,510" fill="#66829a" stroke="#c4d5dc" stroke-width="4"/>
+<polygon points="950,454 1053,430 1122,459 1020,483" fill="#d2aa72" stroke="#f7daaa" stroke-width="3"/>
+<polygon points="1075,510 1156,491 1213,516 1131,535" fill="#5e8a83" stroke="#afd2c3" stroke-width="3"/>
+<polygon points="402,302 925,187 1322,353 791,470" fill="#edd8aa" stroke="#ba945e" stroke-width="6"/>
+<polygon points="452,302 921,200 1272,351 797,455" fill="#e9b466" fill-opacity=".42" stroke="#e3a956" stroke-width="3"/>
+<g fill="#bd762e"><circle cx="487" cy="294" r="6"/><circle cx="551" cy="294" r="6"/><circle cx="615" cy="294" r="6"/><circle cx="679" cy="294" r="6"/><circle cx="743" cy="294" r="6"/><circle cx="807" cy="294" r="6"/><circle cx="871" cy="294" r="6"/><circle cx="935" cy="294" r="6"/><circle cx="999" cy="294" r="6"/><circle cx="1063" cy="294" r="6"/><circle cx="518" cy="334" r="6"/><circle cx="582" cy="334" r="6"/><circle cx="646" cy="334" r="6"/><circle cx="710" cy="334" r="6"/><circle cx="774" cy="334" r="6"/><circle cx="838" cy="334" r="6"/><circle cx="902" cy="334" r="6"/><circle cx="966" cy="334" r="6"/><circle cx="1030" cy="334" r="6"/><circle cx="1094" cy="334" r="6"/><circle cx="549" cy="374" r="6"/><circle cx="613" cy="374" r="6"/><circle cx="677" cy="374" r="6"/><circle cx="741" cy="374" r="6"/><circle cx="805" cy="374" r="6"/><circle cx="869" cy="374" r="6"/><circle cx="933" cy="374" r="6"/><circle cx="997" cy="374" r="6"/><circle cx="1061" cy="374" r="6"/><circle cx="1125" cy="374" r="6"/><circle cx="580" cy="414" r="6"/><circle cx="644" cy="414" r="6"/><circle cx="708" cy="414" r="6"/><circle cx="772" cy="414" r="6"/><circle cx="836" cy="414" r="6"/><circle cx="900" cy="414" r="6"/><circle cx="964" cy="414" r="6"/><circle cx="1028" cy="414" r="6"/><circle cx="1092" cy="414" r="6"/><circle cx="1156" cy="414" r="6"/></g>
+<polygon points="419,167 942,50 1334,215 803,333" fill="#fffdf6" fill-opacity=".72" stroke="#b5b7aa" stroke-width="6"/>
+<polygon points="467,165 933,63 1283,216 809,318" fill="#ffffff" fill-opacity=".18" stroke="#d8c7a3" stroke-width="3"/>
+</g></svg>

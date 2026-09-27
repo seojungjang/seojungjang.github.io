@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 760" role="img" aria-labelledby="t d">
+<title id="t">Glowbook reconstructed component layers</title>
+<desc id="d">Exploded conceptual view of the translucent upper page, LED elements, cut book cavity, battery, voltage converter, ESP8266 controller and book body, based on the worktable photographs and original sketch. It is not a measured section or a wiring diagram.</desc>
+<defs>
+  <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#e4dfd0"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#f5bd6b" stop-opacity=".42"/><stop offset="1" stop-color="#f5bd6b" stop-opacity="0"/></radialGradient>
+  <style>.mono{font:500 18px 'IBM Plex Mono',monospace;letter-spacing:1.4px;fill:#6f766f}.title{font:600 48px 'IBM Plex Sans',Arial,sans-serif;fill:#29312d}.lead{font:22px 'IBM Plex Sans',Arial,sans-serif;fill:#59635b}.label{font:600 22px 'IBM Plex Sans',Arial,sans-serif;fill:#303832}.note{font:16px 'IBM Plex Sans',Arial,sans-serif;fill:#717b73}</style>
+</defs>
+<rect width="1440" height="760" fill="#f3f3ee"/>
+<circle cx="1052" cy="312" r="335" fill="url(#halo)"/>
+<text x="66" y="75" class="mono">GLOWBOOK / RECONSTRUCTED ASSEMBLY</text>
+<text x="66" y="141" class="title">Light, inside a book.</text>
+<text x="66" y="189" class="lead">An exploded reading of the surviving build.</text>
+<g stroke="#aaafa6" stroke-width="2" fill="none">
+  <path d="M60 285 H554 L758 196"/><path d="M60 380 H525 L748 310"/><path d="M60 475 H535 L724 423"/><path d="M60 570 H522 L850 450"/>
+</g>
+<g fill="#8e6538"><circle cx="758" cy="196" r="5"/><circle cx="748" cy="310" r="5"/><circle cx="724" cy="423" r="5"/><circle cx="850" cy="450" r="5"/></g>
+<text x="66" y="274" class="label">01  Translucent page / window</text><text x="66" y="303" class="note">Surface through which the glow is seen</text>
+<text x="66" y="369" class="label">02  LED elements</text><text x="66" y="398" class="note">Matrix and edge light in the bench test</text>
+<text x="66" y="464" class="label">03  Cut-out book cavity</text><text x="66" y="493" class="note">Space for the light and power package</text>
+<text x="66" y="559" class="label">04  Power + control package</text><text x="66" y="588" class="note">12 V pack · converter · ESP8266</text>
+<!-- Exploded isometric layers; positions are illustrative, not measured. -->
+<g stroke-linejoin="round">
+  <polygon points="770,550 1124,468 1367,569 1010,655" fill="#bbab91" stroke="#766d60" stroke-width="4"/>
+  <polygon points="770,550 1010,655 1010,676 770,570" fill="#b9ab94" stroke="#766d60" stroke-width="3"/>
+  <polygon points="1010,655 1367,569 1367,590 1010,676" fill="#a79881" stroke="#766d60" stroke-width="3"/>
+  <polygon points="752,438 1110,355 1349,456 990,541" fill="#f3ead7" stroke="#aeb19f" stroke-width="4"/>
+  <polygon points="791,440 1105,369 1309,456 995,527" fill="#3b4440" stroke="#8e978d" stroke-width="3"/>
+  <polygon points="835,437 1005,399 1114,445 945,484" fill="#66829a" stroke="#b9d0dc" stroke-width="4"/>
+  <text x="967" y="450" font-family="IBM Plex Mono,monospace" font-size="16" fill="#eef4f4">12 V PACK</text>
+  <polygon points="1103,422 1165,407 1212,427 1151,442" fill="#ceab75" stroke="#f1d5a2" stroke-width="3"/>
+  <polygon points="1181,467 1235,454 1282,474 1228,487" fill="#587e79" stroke="#b9d3ca" stroke-width="3"/>
+  <polygon points="765,314 1114,232 1356,333 1004,418" fill="#eee0c5" stroke="#bcaa86" stroke-width="4"/>
+  <polygon points="794,314 1107,241 1322,333 1008,404" fill="#e4b36c" fill-opacity=".36" stroke="#d29b59" stroke-width="3"/>
+  <g fill="#c5772f"><circle cx="827" cy="305" r="4"/><circle cx="872" cy="305" r="4"/><circle cx="917" cy="305" r="4"/><circle cx="962" cy="305" r="4"/><circle cx="1007" cy="305" r="4"/><circle cx="1052" cy="305" r="4"/><circle cx="1097" cy="305" r="4"/><circle cx="1142" cy="305" r="4"/><circle cx="1187" cy="305" r="4"/><circle cx="851" cy="332" r="4"/><circle cx="896" cy="332" r="4"/><circle cx="941" cy="332" r="4"/><circle cx="986" cy="332" r="4"/><circle cx="1031" cy="332" r="4"/><circle cx="1076" cy="332" r="4"/><circle cx="1121" cy="332" r="4"/><circle cx="1166" cy="332" r="4"/><circle cx="1211" cy="332" r="4"/><circle cx="875" cy="359" r="4"/><circle cx="920" cy="359" r="4"/><circle cx="965" cy="359" r="4"/><circle cx="1010" cy="359" r="4"/><circle cx="1055" cy="359" r="4"/><circle cx="1100" cy="359" r="4"/><circle cx="1145" cy="359" r="4"/><circle cx="1190" cy="359" r="4"/><circle cx="1235" cy="359" r="4"/><circle cx="899" cy="386" r="4"/><circle cx="944" cy="386" r="4"/><circle cx="989" cy="386" r="4"/><circle cx="1034" cy="386" r="4"/><circle cx="1079" cy="386" r="4"/><circle cx="1124" cy="386" r="4"/><circle cx="1169" cy="386" r="4"/><circle cx="1214" cy="386" r="4"/><circle cx="1259" cy="386" r="4"/></g>
+  <polygon points="780,189 1130,107 1370,208 1017,291" fill="url(#paper)" fill-opacity=".9" stroke="#b9b8aa" stroke-width="4"/>
+  <polygon points="814,188 1121,118 1338,209 1022,279" fill="#ffffff" fill-opacity=".42" stroke="#d6c8a6" stroke-width="3"/>
+</g>
+<text x="66" y="683" class="note">Based on the sketch and worktable photos. Placement is approximate.</text>
+<text x="66" y="711" class="mono" style="font-size:14px">NOT A MEASURED CROSS-SECTION OR ELECTRICAL SCHEMATIC</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 240" role="img" aria-labelledby="t d">
+      <title id="t">Power test 3: higher-capacity 12 V pack</title>
+      <desc id="d">Conceptual power distribution from 12 V pack to the LED load and WLED controller. This omits connector pinout, return wiring and control data path.</desc>
+      <defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10" fill="#727f76"/></marker>
+      <style>.box{font:600 15px 'IBM Plex Sans',Arial,sans-serif;fill:#2d3732}.small{font:12px 'IBM Plex Mono',monospace;fill:#646e67}.tag{font:600 11px 'IBM Plex Mono',monospace;letter-spacing:1px;fill:#926329}</style></defs>
+      <rect width="500" height="240" rx="12" fill="#f1f2ed"/>
+      <text x="22" y="30" class="tag">TEST 03 / USED</text>
+      <rect x="22" y="84" width="132" height="56" rx="8" fill="#fff" stroke="#926329" stroke-width="2"/>
+      <text x="88" y="117" text-anchor="middle" class="box">12 V pack</text>
+      <path d="M154 112 H312 V75 H322" fill="none" stroke="#727f76" stroke-width="2.5" marker-end="url(#arrow)"/>
+        <path d="M154 112 V176 H170 M284 176 H322" fill="none" stroke="#727f76" stroke-width="2.5" marker-end="url(#arrow)"/>
+        <text x="251" y="64" class="small">12 V</text><text x="289" y="164" class="small">5 V</text><rect x="180" y="149" width="104" height="54" rx="8" fill="#fff" stroke="#aab0a8"/>
+        <text x="232" y="171" text-anchor="middle" class="box">12 V → 5 V</text>
+        <text x="232" y="190" text-anchor="middle" class="small">converter</text>
+      <rect x="324" y="48" width="154" height="54" rx="8" fill="#fff" stroke="#aab0a8"/>
+      <text x="401" y="81" text-anchor="middle" class="box">12 V LED load</text>
+      <rect x="324" y="149" width="154" height="54" rx="8" fill="#fff" stroke="#aab0a8"/>
+      <text x="401" y="182" text-anchor="middle" class="box">ESP8266 / WLED</text>
+      <text x="22" y="224" class="small">POWER PATH ONLY · NO PINOUT OR SIGNAL WIRING</text>
+    </svg>
