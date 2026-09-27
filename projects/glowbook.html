@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="86ff5649-3eeb-48d3-a692-5103a8b1503a"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Glowbook, a cue-synchronized illuminated book prototype by Seojung Jang. Power iterations, control workflow, and unresolved constraints.">
+<title>Glowbook — Seojung Jang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<aside class="rail"><div class="rail-inner"><a class="rail-name" href="../index.html#top">Seojung Jang</a><nav class="rail-nav" aria-label="Primary"><a href="../index.html#studies">Studies</a><a href="../index.html#practice">Technical Practice</a><a href="../index.html#recognition">Recognition</a><a href="../index.html#visual-studies">Visual Studies</a><a href="../index.html#cv">CV</a></nav><div class="rail-footer"><a href="../index.html#studies">← Back to Studies</a></div></div></aside>
+
+<div class="case-shell"><article class="case-page glowbook-page">
+  <a class="case-back" href="../index.html#studies">← Back to Studies</a>
+  <div class="case-kicker">Prototype / Performance object</div>
+  <h1 class="case-title">Glowbook</h1>
+  <p class="case-question">Could a book appear to light up at a precise musical moment, without an onstage tether?</p>
+
+  <div class="glowbook-facts" aria-label="Project context">
+    <div><span class="mono">YEAR</span><strong>2026</strong></div>
+    <div><span class="mono">CONTEXT / LOCATION</span><strong>Albany Park Theater Project · Chicago, IL</strong></div>
+    <div><span class="mono">MY ROLE</span><strong>Lighting design · Glowbook build · cue integration</strong></div>
+  </div>
+
+  <figure class="glowbook-hero-figure">
+    <img class="glowbook-assembly-hero" src="../images/studies/03-glowbook/glowbook-assembly.svg" alt="Exploded reconstruction of the Glowbook, showing the translucent window, LED elements, cut book cavity, battery, voltage converter, and ESP8266 controller">
+    <figcaption>Assembly reconstruction from the original sketch and worktable photographs; component positions are approximate.</figcaption>
+  </figure>
+
+  <div class="glowbook-outcome">
+    <span class="mono">RESULT</span>
+    <p>A higher-capacity 12 V battery and cue-linked control produced a working effect. Weight and connector heating remained unresolved.</p>
+    <span class="glowbook-outcome-tools">LED · ESP8266/WLED · Eos · QLab · OSC</span>
+  </div>
+
+  <section class="glowbook-evidence-lead" aria-labelledby="glowbook-evidence-title">
+    <div class="project-block-head">
+      <div class="project-block-number">Build record</div>
+      <div class="project-block-copy"><h2 id="glowbook-evidence-title">What worked</h2><p>The illuminated book and the production cue workspace are shown here as separate records of the physical build and lighting control.</p></div>
+    </div>
+    <div class="glowbook-proof-grid">
+      <figure>
+        <img src="../images/studies/03-glowbook/book-light-bench-test.jpeg" alt="Glowbook open on a worktable with its internal LEDs illuminated" loading="lazy">
+        <figcaption><strong>Book light test</strong><span>The open prototype, illuminated on the worktable.</span></figcaption>
+      </figure>
+      <figure>
+        <img src="../images/studies/03-glowbook/qlab-eos-production.jpeg" alt="QLab lighting workspace with OSC commands to Eos in front of an Eos cue list" loading="lazy">
+        <figcaption><strong>Lighting cue workflow</strong><span>QLab OSC cue requests in front; Eos cue list behind. The photograph does not show the book's WLED command.</span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="project-block" aria-labelledby="glowbook-power-title">
+    <div class="project-block-head">
+      <div class="project-block-number">01 / Power</div>
+      <div class="project-block-copy"><h2 id="glowbook-power-title">Three power tests</h2><p>Brightness limited the first setup; runtime limited the second. The third powered the effect in the production cue workflow.</p></div>
+    </div>
+    <div class="glowbook-iteration-grid">
+      <article class="glowbook-iteration">
+        <div class="glowbook-iteration-index mono">TEST 01</div>
+        <h3>5 V battery</h3>
+        <img class="glowbook-power-diagram" src="../images/studies/03-glowbook/power-test-01.svg" alt="Test 01 power path: a 5-volt pack supplies the LED load and ESP8266 controller" loading="lazy">
+        <p class="glowbook-result"><span>Observed</span> Brightness was insufficient; my note records a limit of about 28% in this setup.</p>
+        <p class="glowbook-result"><span>Decision</span> Move to a 12 V power configuration.</p>
+      </article>
+      <article class="glowbook-iteration">
+        <div class="glowbook-iteration-index mono">TEST 02</div>
+        <h3>Compact 12 V battery</h3>
+        <img class="glowbook-power-diagram" src="../images/studies/03-glowbook/power-test-02.svg" alt="Test 02 power path: a compact 12-volt battery supplies the LED load directly and the ESP8266 controller through a 12-to-5-volt converter" loading="lazy">
+        <p class="glowbook-result"><span>Observed</span> The available runtime was only a few minutes, requiring frequent battery changes.</p>
+        <p class="glowbook-result"><span>Decision</span> Increase battery capacity.</p>
+      </article>
+      <article class="glowbook-iteration glowbook-iteration-final">
+        <div class="glowbook-iteration-index mono">TEST 03 / USED</div>
+        <h3>Higher-capacity 12 V battery</h3>
+        <img class="glowbook-power-diagram" src="../images/studies/03-glowbook/power-test-03.svg" alt="Test 03 power path: a higher-capacity 12-volt pack supplies the LED load directly and the ESP8266 controller through a 12-to-5-volt converter" loading="lazy">
+        <p class="glowbook-result"><span>Observed</span> The book operated within the production cue workflow.</p>
+        <p class="glowbook-result"><span>Remaining</span> The assembly was heavy, and heat developed near a connector while powered, even with the LEDs off.</p>
+      </article>
+    </div>
+    <details class="glowbook-evidence-details">
+      <summary>View original sketch and worktable documentation</summary>
+      <p>Additional photographs show the components fitted inside the book.</p>
+      <div class="glowbook-build-evidence">
+      <figure>
+        <img src="../images/studies/03-glowbook/battery-converter-in-book.jpeg" alt="Open book cavity containing a blue 12-volt battery pack, step-down converter, wires, and ESP8266 controller" loading="lazy">
+        <figcaption><span>Power package</span><small>Battery, converter, and controller fitted inside the book.</small></figcaption>
+      </figure>
+      <figure>
+        <img src="../images/studies/03-glowbook/esp8266-close-up.jpeg" alt="Close-up of the ESP8266 ESP-12F control board used for WLED" loading="lazy">
+        <figcaption><span>Wireless controller</span><small>ESP8266 board running WLED.</small></figcaption>
+      </figure>
+      </div>
+      <figure class="glowbook-source">
+      <a class="glowbook-source-frame" href="../images/studies/03-glowbook/original-power-sketch.jpeg" target="_blank" rel="noopener" aria-label="Open the original hand-drawn Glowbook power study">
+        <img src="../images/studies/03-glowbook/original-power-sketch.jpeg" alt="Original pencil drawing showing three battery and controller configurations and the placement of components inside the book" loading="lazy">
+      </a>
+      <figcaption>Original hand-drawn power and placement study, rotated for reading. Open for the unaltered photograph.</figcaption>
+      </figure>
+    </details>
+  </section>
+
+  <section class="project-block" aria-labelledby="glowbook-cue-title">
+    <div class="project-block-head">
+      <div class="project-block-number">02 / Control</div>
+      <div class="project-block-copy"><h2 id="glowbook-cue-title">Keeping cue ownership separate</h2><p>Lighting values stayed in Eos. A separate lighting QLab workspace carried the OSC cue requests; the main sound and projection QLab linked the musical cue across laptops. Each designer could revise their own cue list.</p></div>
+    </div>
+    <div class="glowbook-cue-grid" role="list" aria-label="Connected systems and their roles">
+      <div role="listitem"><span class="mono">SOUND DESIGNER'S LAPTOP</span><strong>Main QLab</strong><p>Sound + projection cue sequence</p></div>
+      <div role="listitem"><span class="mono">WIRED LAN / OSC</span><strong>Linked cue lists</strong><p>Connection between the two QLab workspaces</p></div>
+      <div role="listitem"><span class="mono">LIGHTING LAPTOP</span><strong>LX QLab + Eos</strong><p>Local OSC link; lighting values stored in Eos</p></div>
+      <div role="listitem"><span class="mono">INSIDE THE BOOK</span><strong>ESP8266 / WLED</strong><p>Wireless LED control via 2.4 GHz Wi-Fi</p></div>
+    </div>
+    <details class="glowbook-evidence-details glowbook-cue-details">
+      <summary>View a second lighting cue-list photograph</summary>
+      <figure class="glowbook-cue-closeup">
+        <img src="../images/studies/03-glowbook/qlab-eos-cue-closeup.jpeg" alt="Close-up of QLab lighting cues and OSC commands addressed to Eos" loading="lazy">
+        <figcaption>Another section of the lighting QLab workspace showing OSC cue requests to Eos.</figcaption>
+      </figure>
+    </details>
+    <p class="glowbook-method-note"><strong>Evidence limit.</strong> The 28% figure is a setup note, not a lux reading or a diagnosis of the brightness limit. The diagrams are power-path reconstructions, not complete wiring instructions. The photographs show the book and QLab-to-Eos cue requests, but do not document the exact WLED command or cue latency.</p>
+  </section>
+
+  <section class="project-block" aria-labelledby="glowbook-reflection-title">
+    <div class="project-block-head">
+      <div class="project-block-number">03 / Reflection</div>
+      <div class="project-block-copy"><h2 id="glowbook-reflection-title">A working effect, an unfinished object</h2><p>Switching to a 2.4 GHz Wi-Fi network resolved a connection problem. The remaining challenge was the physical package.</p></div>
+    </div>
+    <div class="reflection-grid">
+      <div class="reflection-quote">The lighting cue could succeed while the prop still needed a safer, lighter physical design. That distinction now guides the next build.</div>
+      <aside class="reflection-next"><h3>Next iteration</h3><p>Before reusing the object, I would investigate the connector heating and standby current, then test a proper power-disconnect solution and a lighter package. A switch alone would not explain or fix the source of the heat.</p></aside>
+    </div>
+  </section>
+</article></div>
+</body>
+</html>
