@@ -2609,10 +2609,10 @@ a:hover{
 }
 
 /* V20 — Plastic Movement system conditions */
-.plastic-system-graphic{display:block;width:min(100%,980px);height:auto;background:#0b0b0b;margin:0 auto}
+.plastic-system-graphic{display:block;width:min(100%,980px);height:auto !important;aspect-ratio:auto !important;background:#0b0b0b;margin:0 auto;padding:10px;box-sizing:border-box}
 .plastic-system-block .project-block-head{margin-bottom:22px}
 
-.plastic-system-block .project-visual{border-radius:18px;overflow:hidden}
+.plastic-system-block .project-visual{width:min(100%,980px);height:auto !important;aspect-ratio:auto !important;border-radius:8px;overflow:visible}
 
 
 /* V22 — simpler Plastic Movement graphic + compact CV photo */
@@ -2623,7 +2623,35 @@ a:hover{
 @media(max-width:740px){.cv-card{flex-direction:column;align-items:flex-start}.cv-photo img{width:104px}}
 
 /* V23 — make the CV portrait explicitly visible */
-.cv-card--portrait{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:28px;align-items:start;max-width:760px;margin-top:20px}
-.cv-card--portrait .cv-photo{margin:0;justify-self:end;width:150px}
-.cv-card--portrait .cv-photo img{display:block!important;width:150px!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;border:1px solid #dedede;border-radius:2px;background:#fff}
-@media(max-width:740px){.cv-card--portrait{grid-template-columns:minmax(0,1fr) 108px;gap:18px}.cv-card--portrait .cv-photo,.cv-card--portrait .cv-photo img{width:108px!important}}
+.cv-card--portrait{display:grid;grid-template-columns:minmax(0,1fr) 232px;gap:30px;align-items:start;max-width:860px;margin-top:20px}
+.cv-card--portrait .cv-photo{margin:0;justify-self:end;width:232px}
+.cv-card--portrait .cv-photo img{display:block!important;width:232px!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center!important;border:1px solid #dedede;border-radius:2px;background:#fff}
+@media(max-width:740px){.cv-card--portrait{grid-template-columns:minmax(0,1fr) 152px;gap:18px}.cv-card--portrait .cv-photo,.cv-card--portrait .cv-photo img{width:152px!important}}
+
+/* V24 — ensure the Plastic Movement export graphic is fully visible */
+.plastic-system-graphic{display:block;width:min(100%,980px)!important;max-width:100%!important;height:auto!important;aspect-ratio:auto!important;object-fit:contain!important;object-position:center center!important;margin:0 auto!important;padding:0!important;background:#0b0b0d;border-radius:18px;overflow:visible!important}
+
+.plastic-system-block img{max-width:100%;height:auto;display:block}
+
+
+/* V25 — final no-crop export graphic + slightly larger CV portrait */
+.plastic-system-block .plastic-system-graphic{
+  display:block !important;
+  width:min(100%,900px) !important;
+  max-width:100% !important;
+  height:auto !important;
+  aspect-ratio:auto !important;
+  object-fit:contain !important;
+  object-position:center center !important;
+  margin:0 auto !important;
+  padding:0 !important;
+  border-radius:12px !important;
+  overflow:visible !important;
+}
+.cv-card--portrait{grid-template-columns:minmax(0,1fr) 248px !important;max-width:880px !important}
+.cv-card--portrait .cv-photo{width:248px !important}
+.cv-card--portrait .cv-photo img{width:248px !important;height:auto !important;aspect-ratio:auto !important;object-fit:contain !important}
+@media(max-width:740px){
+  .cv-card--portrait{grid-template-columns:minmax(0,1fr) 152px !important}
+  .cv-card--portrait .cv-photo,.cv-card--portrait .cv-photo img{width:152px !important}
+}
