@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Shim Cheong grandMA2 showfile extract</title>
+<desc id="desc">Selected cue labels extracted from the uploaded final grandMA2 showfile.</desc>
+<rect width="1200" height="900" fill="#0b0b0b"/>
+<g fill="none" stroke="#2d2d2a" stroke-width="2">
+  <path d="M64 122H1136"/><path d="M64 714H1136"/>
+  <path d="M64 250H1136"/><path d="M64 342H1136"/><path d="M64 434H1136"/><path d="M64 526H1136"/><path d="M64 618H1136"/>
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace">
+  <text x="64" y="82" fill="#8d8d88" font-size="24" letter-spacing="4">grandMA2 / SHOWFILE EXTRACT</text>
+  <text x="1136" y="82" fill="#8d8d88" font-size="24" text-anchor="end" letter-spacing="3">250814-final</text>
+  <text x="64" y="192" fill="#f0f0eb" font-size="58" font-weight="600">SHIM CHEONG</text>
+  <text x="64" y="228" fill="#777772" font-size="20" letter-spacing="2">SELECTED PROGRAMMING LABELS FROM THE FINAL SHOWFILE</text>
+
+  <text x="64" y="310" fill="#6f6f6a" font-size="18">01</text>
+  <text x="126" y="310" fill="#d8d8d2" font-size="26">Lamp Effect SR</text>
+  <line x1="900" y1="302" x2="1110" y2="302" stroke="#66665f" stroke-width="4"/>
+
+  <text x="64" y="402" fill="#6f6f6a" font-size="18">02</text>
+  <text x="126" y="402" fill="#d8d8d2" font-size="26">Lamp Effect SL</text>
+  <line x1="900" y1="394" x2="1050" y2="394" stroke="#66665f" stroke-width="4"/>
+
+  <text x="64" y="494" fill="#6f6f6a" font-size="18">03</text>
+  <text x="126" y="494" fill="#d8d8d2" font-size="24">Entrance Jangsuengsang / Preset behind</text>
+  <line x1="900" y1="486" x2="1130" y2="486" stroke="#66665f" stroke-width="4"/>
+
+  <text x="64" y="586" fill="#6f6f6a" font-size="18">04</text>
+  <text x="126" y="586" fill="#d8d8d2" font-size="22">music stop / she falls / preset open center top</text>
+  <line x1="900" y1="578" x2="1015" y2="578" stroke="#66665f" stroke-width="4"/>
+
+  <text x="64" y="678" fill="#6f6f6a" font-size="18">05</text>
+  <text x="126" y="678" fill="#d8d8d2" font-size="24">Music stops / UV 50%</text>
+  <line x1="900" y1="670" x2="1082" y2="670" stroke="#66665f" stroke-width="4"/>
+
+  <text x="64" y="784" fill="#777772" font-size="18" letter-spacing="2">PROGRAMMING TRACE · CUE LABELS · TIMING NOTES</text>
+  <text x="64" y="824" fill="#555550" font-size="16">Source: uploaded grandMA2 showfile</text>
+</g>
+</svg>
