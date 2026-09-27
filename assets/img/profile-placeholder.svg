@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#f3f0ed"/>
+  <circle cx="200" cy="155" r="72" fill="#c8bbb4"/>
+  <path d="M80 390c8-105 53-157 120-157s112 52 120 157" fill="#c8bbb4"/>
+  <text x="200" y="220" text-anchor="middle"
+        font-family="Arial, sans-serif" font-size="0" fill="#654134">SJ</text>
+</svg>
